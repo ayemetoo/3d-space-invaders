@@ -265,8 +265,8 @@ class Space_Invaders_Scene extends Scene_Component
             var gameOver = document.getElementById("gameover");
             var health = document.getElementById("health");
             health.style.color = "#FF0000";
-            health.innerHTML = '<img src="/assets/img/full_heart.png"> </img>'.repeat(this.health);
-            health.innerHTML += '<img src="/assets/img/empty_heart.png"> </img>'.repeat(3-this.health);
+            health.innerHTML = '<img src="assets/img/full_heart.png"> </img>'.repeat(this.health);
+            health.innerHTML += '<img src="assets/img/empty_heart.png"> </img>'.repeat(3-this.health);
             if(this.gameOver)
             {
                   
