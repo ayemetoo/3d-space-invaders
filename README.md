@@ -50,3 +50,6 @@ The `v` key shoots a laser.
 Press `s` to toggle shield and block enemy projectiles. Note that you cannot shoot lasers while shielding. 
 
 Once the game has ended, press `p` to restart. 
+
+## Credits
+Built upon the [tiny-graphics.js](https://github.com/encyclopedia-of-code/tiny-graphics-js "tiny-graphics's repository") library for WebGL programs.
